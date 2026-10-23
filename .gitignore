@@ -1,0 +1,93 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.flutter-plugins
+.pub-cache/
+.pub/
+**/build/
+/coverage/
+
+# Local secrets and signing credentials
+.env
+.env.*
+!.env.example
+!.env.template
+**/local.properties
+**/key.properties
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.pfx
+**/*.p8
+**/*.pem
+**/*.mobileprovision
+**/*.provisionprofile
+**/*.key
+**/*.keychain
+**/*.keychain-db
+
+# Local financial data, backups, and exports
+**/*.db
+**/*.db-*
+**/*.sqlite
+**/*.sqlite3
+**/*.sqlite-*
+**/*.backup
+**/*.bak
+**/*.dump
+**/*.csv
+**/*.xlsx
+
+# Xcode per-user state and build products
+**/xcuserdata/
+*.xcuserstate
+*.xcresult/
+*.xcarchive/
+
+# Local app packages and generated deliverables
+/outputs/
+*.apk
+*.aab
+*.ipa
+
+# Crash reports
+*.ips
+*.crash
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
